@@ -26,7 +26,7 @@ mongoose
   .then(() => console.log('MongoDB Connected'))
   .catch(console.log);
 
-app.get('/', (req, res) => res.send('Yes it is working'));
+// app.get('/', (req, res) => res.send('Yes it is working'));
 
 // Passport middleware
 app.use(passport.initialize());
